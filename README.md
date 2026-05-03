@@ -1,16 +1,72 @@
-# React + Vite
+# ChronoHub ⌚ — Watch Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-featured ecommerce website for selling watches built with React,
+Redux Toolkit, Material UI, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View Live on Vercel](https://chronohub-watch-store.vercel.app)
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 18** — Frontend framework
+- **Redux Toolkit** — State management (cart, auth, filters)
+- **Material UI v5** — UI components
+- **Tailwind CSS v3** — Utility styling
+- **React Router v6** — Page routing
+- **Vite** — Build tool
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🏠 Homepage with Hero section and featured products
+- 🛍️ Shop page with filters, sorting, and search
+- 📦 Product detail page with related products
+- 🛒 Cart with drawer and full cart page
+- 💳 Checkout with 3-step flow (Delivery, Payment, Confirmation)
+- 🔐 Login and Register pages
+- 📊 Admin Dashboard with orders and product management
+- 📱 Fully responsive mobile design
+- 🇵🇰 Pakistan payment methods — COD, JazzCash, EasyPaisa
+
+## 🚀 Run Locally
+
+### 1. Clone the repo
+
+git clone https://github.com/YOUR_USERNAME/chronohub-watch-store.git
+
+### 2. Install dependencies
+
+cd chronohub-watch-store
+npm install
+
+### 3. Start development server
+
+npm run dev
+
+### 4. Open in browser
+
+http://localhost:5173
+
+## 📁 Project Structure
+
+src/
+├── components/
+│ ├── common/
+│ ├── layout/ # Navbar, Footer, CartDrawer, AdminLayout
+│ └── watch/ # WatchCard, Hero, Categories, FilterPanel
+├── pages/
+│ ├── Home, Shop, ProductDetail, Cart, Checkout
+│ ├── Login, Register
+│ └── admin/ # Dashboard, Products, Orders
+├── store/
+│ └── slices/ # cartSlice, authSlice, productSlice, uiSlice
+├── data/ # products.js
+└── routes/ # AppRouter.jsx
+
+## 📸 Screenshots
+
+Coming soon
+
+## 📄 License
+
+MIT License
