@@ -67,6 +67,4 @@ src/
 
 Coming soon
 
-## 📄 License
-
-MIT License
+mohammadfarooquerahi

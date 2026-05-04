@@ -269,7 +269,7 @@ function Navbar() {
                   justifyContent: "flex-start",
                   textTransform: "none",
                   fontWeight: 500,
-                  fontSize: "15px",
+                  fontSize: "16px",
                   color: "#374151",
                   "&:hover": { backgroundColor: "#f3f4f6" },
                   borderRadius: 2,
